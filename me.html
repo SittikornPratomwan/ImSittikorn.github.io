@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Sittikorn Pratomwan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fd;
+      color: #333;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    .profile-pic {
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 20px auto;
+    }
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 36px;
+      margin: 10px 0;
+    }
+    h2 {
+      font-size: 20px;
+      color: #777;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff6f91;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 20px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #ff4a6e;
+    }
+
+    /* เพิ่ม CSS สำหรับ My Projects */
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .project-card {
+      background-color: #292929;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      color: #fff;
+    }
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+    .project-icon {
+      font-size: 40px;
+      color: #ff6f91;
+      margin-bottom: 15px;
+    }
+    .project-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .project-description {
+      font-size: 14px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <!-- Section แรก -->
+  <div class="container">
+    <div class="profile-pic">
+      <img src="file/IMG_1010.jpeg" alt="image error">
+    </div>
+    <h1>I'm Sittikorn Pratomwan</h1>
+    <h2>Programmer</h2>
+    <a href="#about" class="btn">More About Me</a>
+  </div>
+
+  <!-- Section My Projects -->
+  <h1>My Projects</h1>
+  <div class="projects-container">
+    <div class="project-card">
+      <a href="https://www.figma.com/design/NRoMOgLZe0FjwJajWnJpXr/FIgma-SA-Final?node-id=37-764&t=OZU7c3AYLaY6UDaE-1" target="_blank">
+      <div class="project-icon">📱</div>
+      <div class="project-title">Web Design</div>
+      <div class="project-description">This is a program designed in Figma, featuring an interface for customers and a management section for administrators.</div>
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <a href="https://colab.research.google.com/drive/1hRJlCDvDuMALCEa2_PLdJ4BU5yyAdzG_?usp=sharing" target="_blank">
+      <div class="project-icon">🤖</div>
+      <div class="project-title">Object Detect</div>
+      <div class="project-description">Used YOLOv8 for object detection, motion detection, and counting objects.</div>
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <a href="file/30_sittikorn_final.pbix" target="_blank">
+      <div class="project-icon">📊</div>
+      <div class="project-title">Data Analysis</div>
+      <div class="project-description">Analyzing data using Power BI can simplify complex datasets and make them visually appealing
+        and easy to understand. Here's how you can use Power BI to analyze data effectively:</div>
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <a href="file/test scenario.pdf" target="_blank">
+      <div class="project-icon">🔍</div>
+      <div class="project-title">Software Test</div>
+      <div class="project-description">"Test Java code using JUnit, test the web UI using Selenium, test the API using Postman,
+        and perform performance testing."</div>
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <a href="Next-js" target="_blank">
+      <div class="project-icon">🛠️</div>
+      <div class="project-title">Next-Js</div>
+      <div class="project-description">Creating a website by fetching an API from another website.</div>
+      </a>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-icon">📊</div>
+      <div class="project-title">project</div>
+      <div class="project-description">...</div>
+    </div>
+    
+  </div>
+</body>
+</html>
